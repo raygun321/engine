@@ -49,7 +49,7 @@ public interface Engine {
     Logger getLogger();
 
     /**
-     * Ends this engine instance safely. All worlds, players, and configuration data is saved, and all threads are ended cleanly. <br/> If any players are connected, will kick them with the given reason.
+     * Ends this engine instance safely. All worlds, players, and configuration data is saved, and all threads are ended cleanly. <br> If any players are connected, will kick them with the given reason.
      *
      * @param reason for stopping the game instance
      * @return true for for the first stop
@@ -57,7 +57,7 @@ public interface Engine {
     boolean stop(@Nullable String reason);
 
     /**
-     * Returns true if the game is running in debug mode <br/> <br/> To start debug mode, start Flow with -debug
+     * Returns true if the game is running in debug mode <br> <br> To start debug mode, start Flow with -debug
      *
      * @return true if server is started with the -debug flag, false if not
      */
